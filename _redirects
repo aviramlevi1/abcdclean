@@ -1,0 +1,98 @@
+# Netlify _redirects
+# Redirects from old site URLs to new site structure
+
+# Root
+/                           /index.html             200
+
+# Old city pages (slug variations)
+/yehud                      /yehud.html             301
+/yehud/                     /yehud.html             301
+/savyon                     /savyon.html            301
+/savyon/                    /savyon.html            301
+/kiryat-ono                 /kiryat-ono.html        301
+/kiryat-ono/                /kiryat-ono.html        301
+/kiriat-ono                 /kiryat-ono.html        301
+/kiriat-ono/                /kiryat-ono.html        301
+/ganei-tikva                /ganei-tikva.html       301
+/ganei-tikva/               /ganei-tikva.html       301
+/gane-tikva                 /ganei-tikva.html       301
+/hemed                      /hemed.html             301
+/hemed/                     /hemed.html             301
+/mishmar-hashiva            /mishmar-hashiva.html   301
+/mishmar-hashiva/           /mishmar-hashiva.html   301
+/ginaton                    /ginaton.html           301
+/ginaton/                   /ginaton.html           301
+/bereket                    /bereket.html           301
+/bereket/                   /bereket.html           301
+/ramat-efal                 /ramat-efal.html        301
+/ramat-efal/                /ramat-efal.html        301
+/shoham                     /shoham.html            301
+/shoham/                    /shoham.html            301
+
+# New city pages
+/elad                       /elad.html              301
+/elad/                      /elad.html              301
+/mazor                      /mazor.html             301
+/mazor/                     /mazor.html             301
+/nofekh                     /nofekh.html            301
+/nofekh/                    /nofekh.html            301
+/nehalim                    /nehalim.html           301
+/nehalim/                   /nehalim.html           301
+/kfar-sirkin                /kfar-sirkin.html       301
+/kfar-sirkin/               /kfar-sirkin.html       301
+/ganot                      /ganot.html             301
+/ganot/                     /ganot.html             301
+/gat-rimon                  /gat-rimon.html         301
+/gat-rimon/                 /gat-rimon.html         301
+/nat-rimon                  /gat-rimon.html         301
+/nat-rimon/                 /gat-rimon.html         301
+/kfar-maas                  /kfar-maas.html         301
+/kfar-maas/                 /kfar-maas.html         301
+/bnei-atarot                /bnei-atarot.html       301
+/bnei-atarot/               /bnei-atarot.html       301
+/menashim                   /menashim.html          301
+/menashim/                  /menashim.html          301
+/zeitan                     /zeitan.html            301
+/zeitan/                    /zeitan.html            301
+/ahiezer                    /ahiezer.html           301
+/ahiezer/                   /ahiezer.html           301
+/ganei-yehuda               /ganei-yehuda.html      301
+/ganei-yehuda/              /ganei-yehuda.html      301
+/barot-yitzhak              /barot-yitzhak.html     301
+/barot-yitzhak/             /barot-yitzhak.html     301
+/rantia                     /rantia.html            301
+/rantia/                    /rantia.html            301
+/tirat-yehuda               /tirat-yehuda.html      301
+/tirat-yehuda/              /tirat-yehuda.html      301
+/tzfaria                    /tzfaria.html           301
+/tzfaria/                   /tzfaria.html           301
+/kfar-chabad                /kfar-chabad.html       301
+/kfar-chabad/               /kfar-chabad.html       301
+/beit-nehamia               /beit-nehamia.html      301
+/beit-nehamia/              /beit-nehamia.html      301
+/givat-hashlisha            /givat-hashlisha.html   301
+/givat-hashlisha/           /givat-hashlisha.html   301
+
+# Pricing page variants
+/pricing                    /pricing.html           301
+/pricing/                   /pricing.html           301
+/mchriron                   /pricing.html           301
+/מחירון                     /pricing.html           301
+
+# CHATI bot page
+/chati                      /chati.html             301
+/chati/                     /chati.html             301
+/bot                        /chati.html             301
+/bot/                       /chati.html             301
+
+# Blog
+/blog                       /blog.html              301
+/blog/                      /blog.html              301
+
+# Old site Hebrew slugs (if they existed)
+/services                   /index.html#services    301
+/contact                    /index.html#contact     301
+/reviews                    /index.html#reviews     301
+
+# 404 fallback
+/*                          /index.html             404

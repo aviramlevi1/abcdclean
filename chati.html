@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CHATI Bot | הבוט החכם של מכבסת יהוד | 24/7 בוואטסאפ</title>
+<meta name="description" content="CHATI — הבוט החכם של מכבסת יהוד. הזמינו איסוף, קבלו מחיר, שאלו שאלות — 24/7 בוואטסאפ, ללא המתנה. 054-792-1322">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://www.abcdclean.com/chati.html">
+<meta property="og:title" content="CHATI Bot | הבוט החכם של מכבסת יהוד">
+<meta property="og:description" content="CHATI זמין 24/7 — הזמינו איסוף, קבלו מחיר, שאלו שאלות בוואטסאפ ללא המתנה.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#1B365D">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-TK4WP655');</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-T240ZVT2Y0"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-T240ZVT2Y0');function trackEvent(a,c,l){gtag('event',a,{event_category:c,event_label:l});}</script>
+<style>
+.chati-hero {
+  background: linear-gradient(160deg, var(--navy-dark) 0%, var(--navy) 50%, #0F4C75 100%);
+  padding: 96px 0 80px; text-align: center; position: relative; overflow: hidden;
+}
+.chati-hero::before {
+  content: ''; position: absolute; inset: 0;
+  background: radial-gradient(circle at 60% 40%, rgba(59,130,246,.15), transparent 60%);
+}
+.chati-hero > * { position: relative; z-index: 1; }
+.bot-avatar {
+  width: 100px; height: 100px; border-radius: 50%;
+  background: linear-gradient(135deg, #1E40AF, #3B82F6);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 52px; margin: 0 auto 24px;
+  box-shadow: 0 0 0 12px rgba(59,130,246,.15), 0 0 0 24px rgba(59,130,246,.08);
+  animation: bot-pulse 3s ease-in-out infinite;
+}
+@keyframes bot-pulse {
+  0%,100% { box-shadow: 0 0 0 12px rgba(59,130,246,.15), 0 0 0 24px rgba(59,130,246,.08); }
+  50% { box-shadow: 0 0 0 18px rgba(59,130,246,.12), 0 0 0 36px rgba(59,130,246,.05); }
+}
+.feature-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 24px; }
+.feature-card {
+  background: var(--white); border: 1.5px solid var(--border);
+  border-radius: var(--r-xl); padding: 32px 24px; text-align: center;
+  transition: var(--t);
+}
+.feature-card:hover { border-color: var(--navy); box-shadow: var(--sh-lg); transform: translateY(-4px); }
+.feature-ico { font-size: 40px; margin-bottom: 16px; }
+.feature-title { font-size: 17px; font-weight: 700; color: var(--navy); margin-bottom: 10px; }
+.feature-desc { font-size: 14px; color: var(--muted); line-height: 1.7; }
+
+.chat-demo {
+  background: #ECF0F1; border-radius: var(--r-xl); padding: 24px;
+  max-width: 480px; margin: 0 auto; direction: rtl;
+}
+.chat-header {
+  display: flex; align-items: center; gap: 12px; padding-bottom: 16px;
+  border-bottom: 1px solid rgba(0,0,0,.08); margin-bottom: 20px;
+}
+.chat-avatar { width: 44px; height: 44px; border-radius: 50%; background: #25D366; display: flex; align-items: center; justify-content: center; font-size: 22px; }
+.chat-name { font-weight: 700; font-size: 15px; color: #1a1a1a; }
+.chat-status { font-size: 12px; color: #25D366; }
+.msg { margin-bottom: 14px; display: flex; flex-direction: column; }
+.msg-bot { align-items: flex-start; }
+.msg-user { align-items: flex-end; }
+.msg-bubble {
+  max-width: 78%; padding: 10px 14px; border-radius: 14px;
+  font-size: 14px; line-height: 1.55;
+}
+.msg-bot .msg-bubble { background: var(--white); color: #1a1a1a; border-radius: 14px 14px 14px 2px; }
+.msg-user .msg-bubble { background: #DCF8C6; color: #1a1a1a; border-radius: 14px 14px 2px 14px; }
+.msg-time { font-size: 10px; color: #999; margin-top: 4px; }
+
+@media (max-width: 768px) {
+  .feature-grid { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+<body>
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TK4WP655" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+<div class="promo-bar">🤖 CHATI זמין 24/7 — שלחו הודעה עכשיו ותקבלו מענה מיידי</div>
+
+<nav class="nav" id="nav">
+  <div class="wrap">
+    <div class="nav-in">
+      <a href="index.html" class="nav-logo">
+        <img src="logo.jpeg" alt="לוגו מכבסת יהוד" width="52" height="52" loading="eager">
+        <span><span class="logo-n">מכבסת יהוד</span><span class="logo-t">ניקוי יבש · גיהוץ · מאז 1990</span></span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html#services">שירותים</a></li>
+        <li><a href="pricing.html">מחירון</a></li>
+        <li><a href="index.html#reviews">ביקורות</a></li>
+        <li><a href="index.html#contact">צור קשר</a></li>
+      </ul>
+      <div class="nav-cta">
+        <a href="tel:+97235360652" class="nav-phone">📞 03-5360652</a>
+        <a href="https://wa.me/972547921322" class="btn btn-wa btn-sm" target="_blank" rel="noopener" onclick="trackEvent('click','whatsapp','navbar')">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="17" height="17"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+          WhatsApp
+        </a>
+        <button class="nav-burger" id="burger" aria-label="פתח תפריט" aria-expanded="false"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </div>
+</nav>
+<div class="nav-drawer-overlay" id="overlay" onclick="closeDrawer()"></div>
+<nav class="nav-drawer" id="drawer" role="dialog" aria-modal="true">
+  <button class="nav-drawer-close" onclick="closeDrawer()">✕</button>
+  <div class="nav-drawer-logo"><img src="logo.jpeg" alt="לוגו" width="46" height="46"><span>מכבסת יהוד</span></div>
+  <a href="index.html" onclick="closeDrawer()">דף הבית</a>
+  <a href="index.html#services" onclick="closeDrawer()">שירותים</a>
+  <a href="pricing.html" onclick="closeDrawer()">מחירון</a>
+  <a href="index.html#contact" onclick="closeDrawer()">צור קשר</a>
+  <div class="nav-drawer-cta">
+    <a href="tel:+97235360652" class="btn btn-navy btn-lg" style="justify-content:center;" onclick="closeDrawer()">📞 03-5360652</a>
+    <a href="https://wa.me/972547921322" class="btn btn-wa btn-lg" style="justify-content:center;" target="_blank" rel="noopener" onclick="closeDrawer()">💬 WhatsApp</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="chati-hero">
+  <div class="wrap">
+    <div class="breadcrumb" style="justify-content:center;margin-bottom:32px;">
+      <a href="index.html">בית</a><span class="sep">›</span><span>CHATI Bot</span>
+    </div>
+    <div class="bot-avatar" aria-hidden="true">🤖</div>
+    <div class="pill pill-light" style="margin-bottom:20px;">חדש · AI Bot 24/7</div>
+    <h1 style="font-size:clamp(32px,5vw,60px);font-weight:800;color:#fff;letter-spacing:-1px;margin-bottom:16px;">
+      CHATI — הבוט החכם שלנו
+    </h1>
+    <p style="font-size:18px;color:rgba(255,255,255,.75);max-width:540px;margin:0 auto 36px;line-height:1.7;">
+      הזמינו איסוף, קבלו מחיר, שאלו שאלות — הכל בהודעת וואטסאפ אחת, 24 שעות ביממה, 7 ימים בשבוע.
+    </p>
+    <div style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;">
+      <a href="https://wa.me/972547921322?text=שלום%20CHATI!" class="btn btn-wa btn-lg" target="_blank" rel="noopener" onclick="trackEvent('click','chati-wa','hero')">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+        פתח שיחה עם CHATI
+      </a>
+      <a href="tel:+97235360652" class="btn btn-ghost-dark btn-lg" onclick="trackEvent('click','phone','hero')">📞 03-5360652</a>
+    </div>
+  </div>
+</section>
+
+<!-- FEATURES -->
+<section class="sec" style="background:var(--off);">
+  <div class="wrap">
+    <div class="hd c">
+      <div class="pill reveal">✦ מה CHATI יכול לעשות?</div>
+      <h2 class="ttl reveal d1">כל מה שצריך — בהודעה אחת</h2>
+      <div class="accent-line c reveal d2"></div>
+      <p class="sub reveal d3" style="margin:0 auto;">CHATI הוא הבוט החכם של מכבסת יהוד. זמין 24/7, עונה תוך שניות, ומאפשר לכם לנהל הכל מוואטסאפ.</p>
+    </div>
+    <div class="feature-grid">
+      <div class="feature-card reveal d1">
+        <div class="feature-ico">📅</div>
+        <h3 class="feature-title">תיאום איסוף</h3>
+        <p class="feature-desc">הזמינו איסוף מהבית בכמה הודעות קצרות. CHATI יקבע אתכם לזמן הנוח ביותר.</p>
+      </div>
+      <div class="feature-card reveal d2">
+        <div class="feature-ico">💰</div>
+        <h3 class="feature-title">קבלת מחיר</h3>
+        <p class="feature-desc">שאלו על מחיר כל שירות — גיהוץ, ניקוי יבש, שטיחים — וקבלו תשובה מיידית.</p>
+      </div>
+      <div class="feature-card reveal d3">
+        <div class="feature-ico">❓</div>
+        <h3 class="feature-title">שאלות ותשובות</h3>
+        <p class="feature-desc">שעות פתיחה, סוגי שירות, הוראות טיפול בבגד — CHATI יודע הכל ועונה תמיד.</p>
+      </div>
+      <div class="feature-card reveal d4">
+        <div class="feature-ico">🕐</div>
+        <h3 class="feature-title">24/7 ללא הפסקה</h3>
+        <p class="feature-desc">גם בשישי בלילה, גם בחג — CHATI זמין לקבל את ההזמנה שלכם בכל שעה.</p>
+      </div>
+      <div class="feature-card reveal d5">
+        <div class="feature-ico">📍</div>
+        <h3 class="feature-title">מידע על אזורי שירות</h3>
+        <p class="feature-desc">שאלו האם מגיעים לאזור שלכם וקבלו מידע על תנאי האיסוף.</p>
+      </div>
+      <div class="feature-card reveal d6">
+        <div class="feature-ico">⚡</div>
+        <h3 class="feature-title">מענה מיידי</h3>
+        <p class="feature-desc">אין המתנה בטלפון. אין תור. CHATI עונה תוך שניות — בדיוק כשאתם צריכים.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CHAT DEMO -->
+<section class="sec" style="background:var(--white);">
+  <div class="wrap">
+    <div class="hd c">
+      <div class="pill reveal">💬 דמו שיחה</div>
+      <h2 class="ttl reveal d1">ככה זה עובד</h2>
+      <div class="accent-line c reveal d2"></div>
+      <p class="sub reveal d3" style="margin:0 auto 48px;">שיחה אמיתית עם CHATI — פשוט, מהיר ונוח</p>
+    </div>
+    <div class="chat-demo reveal">
+      <div class="chat-header">
+        <div class="chat-avatar">🤖</div>
+        <div>
+          <div class="chat-name">CHATI — מכבסת יהוד</div>
+          <div class="chat-status">● מקוון תמיד</div>
+        </div>
+      </div>
+      <div class="msg msg-bot">
+        <div class="msg-bubble">שלום! אני CHATI, הבוט של מכבסת יהוד 👋<br>במה אוכל לעזור לך היום?<br><br>1️⃣ תיאום איסוף<br>2️⃣ מחירון<br>3️⃣ שעות פתיחה<br>4️⃣ שאלה אחרת</div>
+        <div class="msg-time">10:32</div>
+      </div>
+      <div class="msg msg-user">
+        <div class="msg-bubble">רוצה לתאם איסוף ביהוד מחר בבוקר</div>
+        <div class="msg-time">10:33 ✓✓</div>
+      </div>
+      <div class="msg msg-bot">
+        <div class="msg-bubble">מעולה! ביהוד האיסוף חינם בהזמנה מ-₪140 🚗<br><br>מה הכתובת שלך?</div>
+        <div class="msg-time">10:33</div>
+      </div>
+      <div class="msg msg-user">
+        <div class="msg-bubble">ויצמן 25, יהוד</div>
+        <div class="msg-time">10:34 ✓✓</div>
+      </div>
+      <div class="msg msg-bot">
+        <div class="msg-bubble">✅ קיבלנו! מה הפריטים שרוצים לשלוח?<br>(גיהוץ / ניקוי יבש / כביסה / שטיחים)</div>
+        <div class="msg-time">10:34</div>
+      </div>
+      <div class="msg msg-user">
+        <div class="msg-bubble">3 חולצות לגיהוץ וחליפה לניקוי יבש</div>
+        <div class="msg-time">10:35 ✓✓</div>
+      </div>
+      <div class="msg msg-bot">
+        <div class="msg-bubble">👔 3 חולצות גיהוץ — ₪27<br>🧥 חליפה ניקוי יבש — ₪95<br>📦 סה"כ משוער: ₪122<br><br>מתי נוח לאסוף מחר?</div>
+        <div class="msg-time">10:35</div>
+      </div>
+      <div class="msg msg-user">
+        <div class="msg-bubble">09:00 בבוקר</div>
+        <div class="msg-time">10:36 ✓✓</div>
+      </div>
+      <div class="msg msg-bot">
+        <div class="msg-bubble">✅ מאושר! מחר ב-09:00 נהג יגיע לויצמן 25.<br>תקבלו SMS עם אישור סופי הערב 😊</div>
+        <div class="msg-time">10:36</div>
+      </div>
+    </div>
+
+    <div style="text-align:center;margin-top:36px;" class="reveal">
+      <p style="font-size:16px;color:var(--muted);margin-bottom:16px;">רוצים לנסות? פתחו שיחה עכשיו —</p>
+      <a href="https://wa.me/972547921322?text=שלום%20CHATI!" class="btn btn-wa btn-lg" target="_blank" rel="noopener" onclick="trackEvent('click','chati-wa','demo')">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+        פתח שיחה עם CHATI עכשיו
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="sec" style="background:var(--off);">
+  <div class="wrap">
+    <div class="hd c">
+      <div class="pill reveal">❓ שאלות על CHATI</div>
+      <h2 class="ttl reveal d1">שאלות נפוצות</h2>
+      <div class="accent-line c reveal d2"></div>
+    </div>
+    <div class="faq-list reveal">
+      <div class="faq-item open">
+        <button class="faq-q" aria-expanded="true">האם CHATI הוא בוט אוטומטי? <i class="faq-arr">▼</i></button>
+        <div class="faq-a">CHATI הוא בוט חכם המבוסס על AI. הוא יכול לענות על רוב השאלות ולתאם איסוף באופן אוטומטי. לשאלות מורכבות — צוות המכבסה יחזור אליכם תוך שעה.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">האם ניתן לסמוך על המחירים שCHATI נותן? <i class="faq-arr">▼</i></button>
+        <div class="faq-a">כן! CHATI מחובר למחירון המעודכן של המכבסה. המחיר הסופי עשוי להשתנות מעט לפי סוג הבד ומורכבות הטיפול, אך ההערכה מדויקת ב-95%.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">האם CHATI מקבל הזמנות בשבת ובלילה? <i class="faq-arr">▼</i></button>
+        <div class="faq-a">כן! CHATI זמין <strong>24/7 ללא הפסקה</strong>. הוא יקבל את ההזמנה וצוות המכבסה יאשר בתחילת יום העבודה הבא.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">מה ההבדל בין CHATI לוואטסאפ הרגיל? <i class="faq-arr">▼</i></button>
+        <div class="faq-a">CHATI הוא מספר ייעודי לבוט האוטומטי. הוואטסאפ הרגיל (054-792-1322) מועבר לצוות האנושי בשעות הפעילות.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<a href="https://wa.me/972547921322?text=שלום%20CHATI!" class="float-wa" target="_blank" rel="noopener" aria-label="CHATI WhatsApp" onclick="trackEvent('click','chati-wa','float')">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+</a>
+
+<footer class="footer"><div class="wrap"><div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:16px;padding-bottom:20px;border-bottom:1px solid rgba(255,255,255,.1);"><div><div style="font-weight:800;font-size:15px;color:#fff;">מכבסת יהוד | CHATI Bot</div><div style="font-size:13px;color:rgba(255,255,255,.5);margin-top:4px;">ויצמן 17, יהוד מונוסון · מאז 1990</div></div><div style="display:flex;gap:10px;flex-wrap:wrap;"><a href="tel:+97235360652" class="btn btn-white btn-sm">📞 03-5360652</a><a href="https://wa.me/972547921322" class="btn btn-wa btn-sm" target="_blank" rel="noopener">💬 054-792-1322</a></div></div><div style="padding-top:16px;text-align:center;font-size:12px;color:rgba(255,255,255,.4);">© 2026 מכבסת יהוד · <a href="index.html" style="color:rgba(255,255,255,.4);">דף הבית</a> · <a href="pricing.html" style="color:rgba(255,255,255,.4);">מחירון</a></div></div></footer>
+
+<script>
+const nav=document.getElementById('nav');
+window.addEventListener('scroll',()=>nav.classList.toggle('scrolled',window.scrollY>40),{passive:true});
+const burger=document.getElementById('burger'),drawer=document.getElementById('drawer'),overlay=document.getElementById('overlay');
+function openDrawer(){drawer.classList.add('open');overlay.classList.add('open');burger.setAttribute('aria-expanded','true');document.body.style.overflow='hidden';}
+function closeDrawer(){drawer.classList.remove('open');overlay.classList.remove('open');burger.setAttribute('aria-expanded','false');document.body.style.overflow='';}
+burger.addEventListener('click',openDrawer);
+document.addEventListener('keydown',e=>{if(e.key==='Escape')closeDrawer();});
+const obs=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');obs.unobserve(e.target);}}),{threshold:0.12});
+document.querySelectorAll('.reveal').forEach(el=>obs.observe(el));
+document.querySelectorAll('.faq-q').forEach(btn=>btn.addEventListener('click',()=>{const item=btn.closest('.faq-item'),isOpen=item.classList.contains('open');document.querySelectorAll('.faq-item.open').forEach(i=>{i.classList.remove('open');i.querySelector('.faq-q').setAttribute('aria-expanded','false');});if(!isOpen){item.classList.add('open');btn.setAttribute('aria-expanded','true');}}));
+</script>
+</body>
+</html>
