@@ -29,6 +29,20 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
+<style>
+/* ── Mobile Hero Fix ── */
+@media (max-width: 768px) {
+  .hero-content { position: relative; z-index: 2; }
+  .hero-title   { color: #ffffff !important; text-shadow: 0 2px 8px rgba(0,0,0,0.4); }
+  .hero-sub     { color: rgba(255,255,255,0.92) !important; text-shadow: 0 1px 4px rgba(0,0,0,0.3); }
+  .hero-badges  { display: flex; flex-wrap: wrap; gap: 6px; justify-content: center; }
+  .hero-badge   { color: #ffffff !important; background: rgba(255,255,255,0.15); backdrop-filter: blur(4px); }
+  .hero-stats   { flex-wrap: wrap; gap: 12px; }
+  .hero-stat-lbl{ color: rgba(255,255,255,0.85) !important; }
+  .hero-stat-num{ color: #ffffff !important; }
+  .hero-orbs    { z-index: 0; }
+}
+</style>
 
 <!-- Schema.org -->
 <script type="application/ld+json">
@@ -311,12 +325,21 @@
       </article>
 
       <article class="srv-card reveal d1">
-        <img src="img-ironing.jpeg" alt="תפירה ותיקוני בגדים מקצועיים" class="srv-img" width="800" height="600" loading="lazy">
+        <img src="img-repairs.png" alt="תפירה ותיקוני בגדים מקצועיים" class="srv-img" width="800" height="600" loading="lazy">
         <div class="srv-icon" aria-hidden="true">🧵</div>
         <h3 class="srv-title">תפירה ותיקונים</h3>
         <p class="srv-desc">תיקון קרע, מכפלת מקורית, החלפת ריצרץ. מקצועי, מהיר — בשילוב עם הניקוי.</p>
         <div class="srv-price">מ-₪30 לתיקון</div>
         <a href="pricing.html#tailoring" class="btn btn-ghost btn-sm" style="margin-top:18px;">למחירון תפירה</a>
+      </article>
+
+      <article class="srv-card reveal d2">
+        <img src="img-delivery1.png" alt="שירות איסוף והחזרה עד הבית — מכבסת יהוד" class="srv-img" width="800" height="600" loading="lazy">
+        <div class="srv-icon" aria-hidden="true">🚗</div>
+        <h3 class="srv-title">איסוף והחזרה</h3>
+        <p class="srv-desc">מגיעים אליכם הביתה — אוספים, מנקים ומחזירים. ללא יציאה מהבית, ללא עיכוב.</p>
+        <div class="srv-price">חינם מ-₪140</div>
+        <a href="https://wa.me/972547921322?text=שלום!%20רוצה%20לתאם%20איסוף" class="btn btn-ghost btn-sm" style="margin-top:18px;" target="_blank" rel="noopener">תיאום איסוף</a>
       </article>
 
     </div>
