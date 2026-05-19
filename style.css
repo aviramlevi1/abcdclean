@@ -756,21 +756,22 @@ h1.hero-title {
 .photo-strip-item:hover img { transform:scale(1.06); }
 .photo-strip-overlay {
   position:absolute; inset:0;
-  background:linear-gradient(to top,rgba(27,54,93,.8),transparent);
+  background:linear-gradient(to top,rgba(27,54,93,.75),transparent 60%);
   display:flex; align-items:flex-end; padding:16px;
   color:var(--white); font-weight:700; font-size:14px;
-  opacity:0; transition:opacity var(--t);
+  opacity:1; transition:opacity var(--t);
 }
 .photo-strip-item:hover .photo-strip-overlay { opacity:1; }
 
 /* ── FLOATING WA ─────────────────────────────────────── */
 .float-wa {
-  position:fixed; bottom:24px; left:24px; z-index:99;
+  position:fixed; bottom:24px; left:24px; z-index:999;
   width:58px; height:58px; border-radius:50%;
   background:#25D366; color:var(--white);
   display:flex; align-items:center; justify-content:center;
   box-shadow:0 6px 24px rgba(37,211,102,.45);
   transition:var(--t); cursor:pointer; border:none;
+  text-decoration:none;
 }
 .float-wa:hover { background:#1DAB52; transform:scale(1.08); box-shadow:0 10px 32px rgba(37,211,102,.5); }
 .float-wa svg { width:28px; height:28px; }
@@ -874,6 +875,8 @@ h1.hero-title {
   .footer-grid   { grid-template-columns:1fr; gap:24px; }
   .photo-strip   { grid-template-columns:repeat(2,1fr); }
   .cta-banner    { padding:36px 24px; }
+  .cta-banner h2 { color:#fff !important; }
+  .cta-banner p  { color:rgba(255,255,255,.9) !important; }
   .form-row      { grid-template-columns:1fr; }
   .trust-sep     { display:none; }
   .trust-bar     { gap:16px; }
