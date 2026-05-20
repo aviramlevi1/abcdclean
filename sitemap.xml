@@ -1,252 +1,267 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-  <!-- Main pages -->
+  <!-- ===== דף הבית ===== -->
   <url>
     <loc>https://www.abcdclean.com/</loc>
-    <lastmod>2026-05-17</lastmod>
+    <lastmod>2025-05-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
+
+  <!-- ===== דפי ליבה ===== -->
   <url>
-    <loc>https://www.abcdclean.com/index.html</loc>
-    <lastmod>2026-05-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.abcdclean.com/pricing.html</loc>
-    <lastmod>2026-05-17</lastmod>
+    <loc>https://www.abcdclean.com/pricing</loc>
+    <lastmod>2025-05-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
+
   <url>
-    <loc>https://www.abcdclean.com/chati.html</loc>
-    <lastmod>2026-05-17</lastmod>
+    <loc>https://www.abcdclean.com/blog</loc>
+    <lastmod>2025-05-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- ===== מאמרי בלוג ===== -->
+  <url>
+    <loc>https://www.abcdclean.com/blog-carpet</loc>
+    <lastmod>2025-05-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
-  <!-- City pages -->
   <url>
-    <loc>https://www.abcdclean.com/yehud.html</loc>
-    <lastmod>2026-05-17</lastmod>
+    <loc>https://www.abcdclean.com/blog-dry-cleaning</loc>
+    <lastmod>2025-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.abcdclean.com/blog-wash-tips</loc>
+    <lastmod>2025-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- ===== דפי ערים — SEO מקומי ===== -->
+  <url>
+    <loc>https://www.abcdclean.com/yehud</loc>
+    <lastmod>2025-05-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
+
   <url>
-    <loc>https://www.abcdclean.com/savyon.html</loc>
-    <lastmod>2026-05-17</lastmod>
+    <loc>https://www.abcdclean.com/or-yehuda</loc>
+    <lastmod>2025-05-20</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
+    <priority>0.9</priority>
   </url>
+
   <url>
-    <loc>https://www.abcdclean.com/kiryat-ono.html</loc>
-    <lastmod>2026-05-17</lastmod>
+    <loc>https://www.abcdclean.com/kiryat-ono</loc>
+    <lastmod>2025-05-20</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
+    <priority>0.9</priority>
   </url>
+
   <url>
-    <loc>https://www.abcdclean.com/ganei-tikva.html</loc>
-    <lastmod>2026-05-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://www.abcdclean.com/hemed.html</loc>
-    <lastmod>2026-05-17</lastmod>
+    <loc>https://www.abcdclean.com/givat-shmuel</loc>
+    <lastmod>2025-05-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+
   <url>
-    <loc>https://www.abcdclean.com/mishmar-hashiva.html</loc>
-    <lastmod>2026-05-17</lastmod>
+    <loc>https://www.abcdclean.com/ganei-tikva</loc>
+    <lastmod>2025-05-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+
   <url>
-    <loc>https://www.abcdclean.com/ginaton.html</loc>
-    <lastmod>2026-05-17</lastmod>
+    <loc>https://www.abcdclean.com/savyon</loc>
+    <lastmod>2025-05-20</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.75</priority>
-  </url>
-  <url>
-    <loc>https://www.abcdclean.com/bereket.html</loc>
-    <lastmod>2026-05-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.75</priority>
-  </url>
-  <url>
-    <loc>https://www.abcdclean.com/ramat-efal.html</loc>
-    <lastmod>2026-05-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.75</priority>
-  </url>
-  <url>
-    <loc>https://www.abcdclean.com/shoham.html</loc>
-    <lastmod>2026-05-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.75</priority>
-  </url>
-  <url>
-    <loc>https://www.abcdclean.com/or-yehuda.html</loc>
-    <lastmod>2026-05-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://www.abcdclean.com/givat-shmuel.html</loc>
-    <lastmod>2026-05-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
+    <priority>0.8</priority>
   </url>
 
-  <!-- New city pages -->
   <url>
-    <loc>https://www.abcdclean.com/elad.html</loc>
-    <lastmod>2026-05-17</lastmod>
+    <loc>https://www.abcdclean.com/ramat-efal</loc>
+    <lastmod>2025-05-20</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://www.abcdclean.com/mazor.html</loc>
-    <lastmod>2026-05-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://www.abcdclean.com/nofekh.html</loc>
-    <lastmod>2026-05-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://www.abcdclean.com/nehalim.html</loc>
-    <lastmod>2026-05-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://www.abcdclean.com/kfar-sirkin.html</loc>
-    <lastmod>2026-05-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://www.abcdclean.com/ganot.html</loc>
-    <lastmod>2026-05-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://www.abcdclean.com/gat-rimon.html</loc>
-    <lastmod>2026-05-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://www.abcdclean.com/kfar-maas.html</loc>
-    <lastmod>2026-05-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://www.abcdclean.com/bnei-atarot.html</loc>
-    <lastmod>2026-05-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://www.abcdclean.com/menashim.html</loc>
-    <lastmod>2026-05-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://www.abcdclean.com/zeitan.html</loc>
-    <lastmod>2026-05-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://www.abcdclean.com/ahiezer.html</loc>
-    <lastmod>2026-05-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://www.abcdclean.com/ganei-yehuda.html</loc>
-    <lastmod>2026-05-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://www.abcdclean.com/barot-yitzhak.html</loc>
-    <lastmod>2026-05-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://www.abcdclean.com/rantia.html</loc>
-    <lastmod>2026-05-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://www.abcdclean.com/tirat-yehuda.html</loc>
-    <lastmod>2026-05-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://www.abcdclean.com/tzfaria.html</loc>
-    <lastmod>2026-05-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://www.abcdclean.com/kfar-chabad.html</loc>
-    <lastmod>2026-05-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://www.abcdclean.com/beit-nehamia.html</loc>
-    <lastmod>2026-05-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://www.abcdclean.com/givat-hashlisha.html</loc>
-    <lastmod>2026-05-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.80</priority>
+    <priority>0.8</priority>
   </url>
 
-  <!-- Blog pages -->
   <url>
-    <loc>https://www.abcdclean.com/blog.html</loc>
-    <lastmod>2026-05-17</lastmod>
-    <changefreq>weekly</changefreq>
+    <loc>https://www.abcdclean.com/elad</loc>
+    <lastmod>2025-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.abcdclean.com/shoham</loc>
+    <lastmod>2025-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.abcdclean.com/ganei-yehuda</loc>
+    <lastmod>2025-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.abcdclean.com/givat-hashlisha</loc>
+    <lastmod>2025-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.abcdclean.com/kfar-sirkin</loc>
+    <lastmod>2025-05-20</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
+
   <url>
-    <loc>https://www.abcdclean.com/blog-wash-tips.html</loc>
-    <lastmod>2026-05-17</lastmod>
+    <loc>https://www.abcdclean.com/beit-nehamia</loc>
+    <lastmod>2025-05-20</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.65</priority>
+    <priority>0.7</priority>
   </url>
+
   <url>
-    <loc>https://www.abcdclean.com/blog-carpet.html</loc>
-    <lastmod>2026-05-17</lastmod>
+    <loc>https://www.abcdclean.com/bereket</loc>
+    <lastmod>2025-05-20</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.65</priority>
+    <priority>0.7</priority>
   </url>
+
   <url>
-    <loc>https://www.abcdclean.com/blog-dry-cleaning.html</loc>
-    <lastmod>2026-05-17</lastmod>
+    <loc>https://www.abcdclean.com/bnei-atarot</loc>
+    <lastmod>2025-05-20</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.65</priority>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.abcdclean.com/chati</loc>
+    <lastmod>2025-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.abcdclean.com/ganot</loc>
+    <lastmod>2025-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.abcdclean.com/gat-rimon</loc>
+    <lastmod>2025-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.abcdclean.com/ginaton</loc>
+    <lastmod>2025-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.abcdclean.com/hemed</loc>
+    <lastmod>2025-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.abcdclean.com/kfar-chabad</loc>
+    <lastmod>2025-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.abcdclean.com/kfar-maas</loc>
+    <lastmod>2025-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.abcdclean.com/mazor</loc>
+    <lastmod>2025-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.abcdclean.com/menashim</loc>
+    <lastmod>2025-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.abcdclean.com/mishmar-hashiva</loc>
+    <lastmod>2025-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.abcdclean.com/nehalim</loc>
+    <lastmod>2025-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.abcdclean.com/nofekh</loc>
+    <lastmod>2025-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.abcdclean.com/rantia</loc>
+    <lastmod>2025-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.abcdclean.com/tirat-yehuda</loc>
+    <lastmod>2025-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.abcdclean.com/tzfaria</loc>
+    <lastmod>2025-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.abcdclean.com/zeitan</loc>
+    <lastmod>2025-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
 
 </urlset>

@@ -2,7 +2,3 @@ User-agent: *
 Allow: /
 
 Sitemap: https://www.abcdclean.com/sitemap.xml
-
-# Disallow admin/internal paths if any
-Disallow: /admin/
-Disallow: /private/
