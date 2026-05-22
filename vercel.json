@@ -1,4 +1,67 @@
-{
+ {
   "cleanUrls": true,
-  "trailingSlash": false
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "abcdclean.com" }],
+      "destination": "https://www.abcdclean.com/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/en",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/en/:path*",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/service-page/:path*",
+      "destination": "/pricing",
+      "permanent": true
+    },
+    {
+      "source": "/kiriat-ono",
+      "destination": "/kiryat-ono",
+      "permanent": true
+    },
+    {
+      "source": "/gane-tikva",
+      "destination": "/ganei-tikva",
+      "permanent": true
+    },
+    {
+      "source": "/nat-rimon",
+      "destination": "/gat-rimon",
+      "permanent": true
+    },
+    {
+      "source": "/mchriron",
+      "destination": "/pricing",
+      "permanent": true
+    },
+    {
+      "source": "/services",
+      "destination": "/#services",
+      "permanent": true
+    },
+    {
+      "source": "/contact",
+      "destination": "/#contact",
+      "permanent": true
+    },
+    {
+      "source": "/reviews",
+      "destination": "/#reviews",
+      "permanent": true
+    },
+    {
+      "source": "/bot",
+      "destination": "/chati",
+      "permanent": true
+    }
+  ]
 }
