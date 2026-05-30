@@ -1,4 +1,4 @@
- name: Fix Canonical Tags
+ name: Fix Canonical
 on: workflow_dispatch
 permissions:
   contents: write
@@ -7,29 +7,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Fix canonical URLs
-        run: |
-          python3 << 'PYEOF'
-          import re, glob
-          files = glob.glob('*.html')
-          fixed = 0
-          for f in files:
-              content = open(f, encoding='utf-8').read()
-              new = re.sub(
-                  r'<link rel="canonical" href="https://www\.abcdclean\.com/([^"]+)\.html">',
-                  r'<link rel="canonical" href="https://www.abcdclean.com/\1">',
-                  content
-              )
-              if content != new:
-                  open(f, 'w', encoding='utf-8').write(new)
-                  fixed += 1
-                  print(f'Fixed: {f}')
-          print(f'Total fixed: {fixed}')
-          PYEOF
-      - name: Commit and push
-        run: |
-          git config user.email "action@github.com"
-          git config user.name "GitHub Action"
+      - run: |
+          sed -i 's|\.com/\([^"]*\)\.html"|\.com/\1"|g' *.html
+      - run: |
+          git config user.email "bot@fix.com"
+          git config user.name "FixBot"
           git add *.html
-          git diff --staged --quiet || git commit -m "fix: canonical URLs remove .html extension"
+          git diff --staged --quiet || git commit -m "fix canonical"
           git push
