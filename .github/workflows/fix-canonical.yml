@@ -1,11 +1,15 @@
-name: Fix Canonical Tags
+ name: Fix Canonical Tags
 on: workflow_dispatch
+
+permissions:
+  contents: write
 
 jobs:
   fix:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
+
       - name: Fix canonical URLs
         run: |
           python3 -c "
@@ -25,11 +29,11 @@ jobs:
                   print(f'Fixed: {f}')
           print(f'Total fixed: {fixed}')
           "
-      - uses: actions/checkout@v3
-      - name: Commit changes
+
+      - name: Commit and push
         run: |
           git config user.email "action@github.com"
           git config user.name "GitHub Action"
           git add *.html
-          git diff --staged --quiet || git commit -m "fix: canonical URLs remove .html extension"
+          git diff --staged --quiet || git commit -m "fix: canonical URLs - remove .html extension"
           git push
