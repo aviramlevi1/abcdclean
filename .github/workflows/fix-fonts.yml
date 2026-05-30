@@ -1,0 +1,26 @@
+name: Fix Fonts
+on: workflow_dispatch
+permissions:
+  contents: write
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fix Google Fonts loading
+        run: |
+          OLD='<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet">'
+          NEW='<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;700\&family=Space+Grotesk:wght@400;700\&display=swap" rel="stylesheet" media="print" onload="this.media='"'"'all'"'"'">\n<noscript><link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;700\&family=Space+Grotesk:wght@400;700\&display=swap" rel="stylesheet"></noscript>'
+          for f in *.html; do
+            if grep -q "Heebo:wght@300" "$f"; then
+              sed -i "s|$OLD|$NEW|g" "$f"
+              echo "Fixed: $f"
+            fi
+          done
+      - name: Commit and push
+        run: |
+          git config user.email "bot@fix.com"
+          git config user.name "Bot"
+          git add *.html
+          git diff --staged --quiet || git commit -m "perf: lazy load Google Fonts for mobile speed"
+          git push
