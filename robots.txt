@@ -1,4 +1,10 @@
-User-agent: *
+ User-agent: *
 Allow: /
+
+# Block Wix API remnants
+Disallow: /_api/
+Disallow: /_partials/
+Disallow: /book-online
+Disallow: /index.html
 
 Sitemap: https://www.abcdclean.com/sitemap.xml
