@@ -1,18 +1,4 @@
-{
-  "source": "/index.html",
-  "destination": "/",
-  "permanent": true
-},
-{
-  "source": "/book-online",
-  "destination": "/",
-  "permanent": true
-},
-{
-  "source": "/_api/:path*",
-  "destination": "/",
-  "permanent": true
-} {
+ {
   "cleanUrls": true,
   "trailingSlash": false,
   "redirects": [
@@ -20,6 +6,21 @@
       "source": "/:path*",
       "has": [{ "type": "host", "value": "abcdclean.com" }],
       "destination": "https://www.abcdclean.com/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/index.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/book-online",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/_api/:path*",
+      "destination": "/",
       "permanent": true
     },
     {
