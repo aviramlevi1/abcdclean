@@ -3,7 +3,10 @@
    Palette: Navy #1B365D · White · Silver
    Style: Premium Minimal + Elegant
    ===================================================== */
-
+@font-face {
+  font-family: 'Heebo';
+  font-display: swap;
+}
 :root {
   /* Core Navy */
   --navy:        #1B365D;
